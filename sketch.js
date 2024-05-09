@@ -8,7 +8,7 @@ function preload() {
 }
 
 function setup() {
-createCanvas(1200, 360);
+createCanvas(800, 360);
 frameRate();
 
 graphic = createGraphics(1200, 360);
@@ -16,7 +16,7 @@ graphic.fill('white');
 graphic.textSize(300);
 graphic.textAlign(CENTER, CENTER);
 graphic.textFont(font);
-graphic.text("axl", 600, 150);
+graphic.text("axl", 400, 150);
 
 }
 
